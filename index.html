@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telegram Bot</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="text-center mt-5 mb-5">Telegram BOT</h1>
+    <main>
+      <form id="form">
+        <div class="mb-3">
+          <label for="subject" class="form-label">
+            <strong>Subject</strong></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="subject"
+            autocomplete="off"
+            placeholder="Enter subject"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label"
+            ><strong>Message</strong></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="message"
+            autocomplete="off"
+            placeholder="Enter your message"
+          />
+        </div>
+        <button type="submit" class="btn btn-dark">Send</button>
+      </form>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
